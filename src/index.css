@@ -1,7 +1,84 @@
 .jumbo-image {
-    background-image: url("https://images.unsplash.com/photo-1552152974-19b9caf99137?fit=crop&w=1350&q=80");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8),
+   rgba(0, 0, 0, 0.8)), url(./assets/background.jpg);
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+  #p-link {
+    font-family: 'Audiowide', cursive;  
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+    transition: transform 0.7s;
   }
   
+  #p-link:hover {
+    color:rgb(204, 204, 204);
+     transform: scale(1.2);
+  }
+  #p-link-1 {
+    font-family: 'Audiowide', cursive;  
+    text-decoration: none;
+    color: black;
+    transition: transform 0.5s;
+  }
+  #p-link-1:hover {
+     color:rgb(248, 248, 248);
+     transform: scale(1.2) translateX(10px)
+  }
+
+  .icons {
+    font-weight: 1000;
+    color :rgb(255, 255, 255);
+    transition: transform 0.6s;
+  }
+  .icons:hover {
+    transform: scale(1.15);
+    color:rgb(204, 204, 204)
+  }
+
+  .stronk {
+    font-weight: 600 ;
+  }
+
+  .footer-icons {
+    font-weight: 1000;
+    color:rgb(64, 147, 255);
+    transition: transform 0.6s;
+  }
+  .footer-icons:hover {
+    transform: scale(1.2);
+    color:rgb(21, 1, 124)
+  }
+
+
+  #footer-container {
+    background-color:rgb(150, 150, 150)
+  }
+
+  #exampleFormControlTextarea1 {
+    border-color:rgb(150, 150, 150)!important;
+    outline-color:rgb(150, 150, 150) !important;
+  }
+
+  #nav-icons {
+    display: flex;
+    float: right;
+}
+
+#lead {
+    font-size: 1.25rem;
+    font-weight: 100;
+}
+.navbar {
+   font-family: 'Audiowide', cursive;  
+}
+
+#idNav {
+    background-color: rgb(92, 97, 99);
+    height:50px;
+    padding: 5px;
+    box-shadow: 5px 5px black;
+}
