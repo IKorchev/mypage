@@ -1,5 +1,5 @@
 import  React  from 'react'
-import { Route, Switch} from 'react-router-dom'
+import { HashRouter, Route, Switch} from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import  Home  from './pages/home'
 import  Contact  from './pages/contact'
@@ -13,16 +13,20 @@ function App() {
 
 
   return (
-    <>
+    <HashRouter>
       <Navbar />
       <Switch>
-        <Route exact path="/home" component={Home} />
+        <Route exact path="/" component={Home} />
         <Route path="/projects" component={Projects} />
         <Route path="/contact" component={Contact} />
       </Switch>
       <Footer />
-   </>
+   </HashRouter>
   );
 }
+
+// // const Home = () => <div><h2>Home</h2></div>
+// const Projects = () => <div><h2>About</h2></div>
+// const Contact = () => <div><h2>About</h2></div>
 
 export default App;
