@@ -2,9 +2,9 @@ import React from 'react'
 
 function Contact() {
     return (
-        <div className="pricing-header px-3 py-3 pt-md-5 pb-md-4 text-center">
-           <h2 className="display-6">Contact me</h2> 
-           <p id="lead">Lorem ipsum dolor sit amet Duis maximus ultrices elementum. Nulla placerat sodales lorem, nec semper urna pretium quis. Maecenas ullamcorper luctus nislondimentum scelerisque.</p>
+        <div className="container-fluid text-center main">
+           <h2 className="h1">Contact me</h2> 
+           <p className="mt-5">Lorem ipsum dolor sit amet Duis maximus ultrices elementum. Nulla placerat sodales lorem, nec semper urna pretium quis. Maecenas ullamcorper luctus nislondimentum scelerisque.</p>
         </div>
     )
 }

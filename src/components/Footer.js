@@ -9,7 +9,6 @@ function Footer() {
 
     return (
         <footer className="container-fluid " id="footer-container">
-            <hr></hr>
                 <div className="row text-center justify-content-around">
                     <div className="col-lg-2 py-2 text-center">
                     <a href="https://linkedin.com/" target="_blank" rel="noreferrer" className="footer-icons mx-2"><FaLinkedin size={iconSize}></FaLinkedin></a>

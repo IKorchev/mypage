@@ -1,48 +1,58 @@
 
 :root {
-  --main-color-blue:  rgb(86, 179, 241); 
-  --main-color-grey: rgb(197, 197, 197) ;
+
+ --main-color-dark: rgba(36, 37, 38, 1); 
+ --color-green-dark: rgba(53, 140, 124, 1); 
+ --color-green-bright: rgba(84, 216, 192, 1); 
+ --color-light: rgba(242, 242, 242, 1); 
+ --color-black: rgba(12, 12, 12, 1); 
+
+
 }
 
-.jumbo-image {
+
+
+body {
+  height:100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.8),
-   rgba(0, 0, 0, 0.8)), url(./assets/background.jpg);
-   background-position: center center;
-   background-repeat: no-repeat;
-   background-size: cover;
-
+  rgba(0, 0, 0, 0.8)), url(./assets/pexels-charlotte-may-5825599.jpg);
+  background-position:center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
+
 #p-link {
   font-family: 'Audiowide', cursive;  
   text-decoration: none;
-  color: white;
-  font-size: medium;
+  color: var(--color-light);
   transition: transform 0.7s;
 }
 
 #p-link:hover {
-  color: rgb(86, 179, 241);
-  transform: scale(1.2);
+  color: var(--color-green-dark);
+  transform: scale(1.05);
 }
 #p-link-1 {
   font-family: 'Audiowide', cursive;  
   text-decoration: none;
-  color: rgb(86, 179, 241);
+  color: var(--color-light);
   transition: transform 0.5s;
+  font-size: xx-large;
 }
 #p-link-1:hover {
-    color:rgb(248, 248, 248);
-    transform: scale(1.2) translateX(10px)
+    color: var(--color-light);
+    transform: scale(1.2) translateX(10px);
 }
 
 .icons {
   font-weight: 1000;
-  color :rgb(255, 255, 255);
+  color :var(--color-light);
   transition: transform 0.6s;
 }
 .icons:hover {
   transform: scale(1.15);
-  color:rgb(204, 204, 204)
+  color:var(--color-light)
 }
 
 .stronk {
@@ -51,7 +61,7 @@
 
 .footer-icons {
   font-weight: 1000;
-  color:rgb(86, 179, 241);
+  color:var(--color-light);
   transition: transform 0.6s;
 }
 .footer-icons:hover {
@@ -59,34 +69,22 @@
   color:rgb(190, 229, 255);
 }
 
-
 #footer-container {
-  background-color: var(--main-color-grey)
+  background-color: var(--main-color-dark)
 }
 
-
-#nav-icons {
-  display: flex;
-  float: right;
-}
-
-#lead {
-    font-size: 1.25rem;
-    font-weight: 100;
-}
 .navbar {
-   font-family: 'Audiowide', cursive;  
+   font-family: 'Audiowide', cursive;
 }
 
 #idNav {
-  background-color:var(--main-color-grey);
-  height:50px;
-  padding: 5px;
-  box-shadow: 5px 5px black;
+  background-color:var(--color-black);
+  padding-left: 15px;
+  height: 3rem;
 }
 
 .card {
-  opacity: 0.7;
+  opacity: 0.6;
   transition: all 0.5s;
 }
 
@@ -97,4 +95,24 @@
 
 #jtext {
   font-family: 'Jura', sans-serif;
+  color: var(--color-light)
+}
+
+
+.div1 {
+  height:120vh
+}
+
+.card1 {
+  width:18rem;
+}
+
+
+.links {
+  text-decoration: none;
+  color:black;
+}
+
+.card {
+  cursor: pointer;
 }
