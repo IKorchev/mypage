@@ -1,29 +1,22 @@
-
 :root {
-
- --main-color-dark: rgba(36, 37, 38, 1); 
- --color-green-dark: rgba(53, 140, 124, 1); 
- --color-green-bright: rgba(84, 216, 192, 1); 
- --color-light: rgba(242, 242, 242, 1); 
- --color-black: rgba(12, 12, 12, 1); 
-
-
+  --main-color-dark: rgba(36, 37, 38, 1);
+  --color-green-dark: rgba(53, 140, 124, 1);
+  --color-green-bright: rgba(84, 216, 192, 1);
+  --color-light: rgba(242, 242, 242, 1);
+  --color-black: rgba(12, 12, 12, 1);
 }
 
-
-
 body {
-  height:100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8),
-  rgba(0, 0, 0, 0.8)), url(./assets/pexels-charlotte-may-5825599.jpg);
-  background-position:center center;
+  height: 100vh;
+  background-image: url(./assets/pexels-charlotte-may-5825599.jpg);
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
 
 #p-link {
-  font-family: 'Audiowide', cursive;  
+  font-family: "Audiowide", cursive;
   text-decoration: none;
   color: var(--color-light);
   transition: transform 0.7s;
@@ -34,51 +27,51 @@ body {
   transform: scale(1.05);
 }
 #p-link-1 {
-  font-family: 'Audiowide', cursive;  
+  font-family: "Audiowide", cursive;
   text-decoration: none;
   color: var(--color-light);
   transition: transform 0.5s;
   font-size: xx-large;
 }
 #p-link-1:hover {
-    color: var(--color-light);
-    transform: scale(1.2) translateX(10px);
+  color: var(--color-light);
+  transform: scale(1.2) translateX(10px);
 }
 
 .icons {
   font-weight: 1000;
-  color :var(--color-light);
+  color: var(--color-light);
   transition: transform 0.6s;
 }
 .icons:hover {
   transform: scale(1.15);
-  color:var(--color-light)
+  color: var(--color-light);
 }
 
 .stronk {
-  font-weight: 600 ;
+  font-weight: 600;
 }
 
 .footer-icons {
   font-weight: 1000;
-  color:var(--color-light);
+  color: var(--color-light);
   transition: transform 0.6s;
 }
 .footer-icons:hover {
   transform: scale(1.2);
-  color:rgb(190, 229, 255);
+  color: rgb(190, 229, 255);
 }
 
 #footer-container {
-  background-color: var(--main-color-dark)
+  background-color: var(--main-color-dark);
 }
 
 .navbar {
-   font-family: 'Audiowide', cursive;
+  font-family: "Audiowide", cursive;
 }
 
 #idNav {
-  background-color:var(--color-black);
+  background-color: var(--color-black);
   padding-left: 15px;
   height: 3rem;
 }
@@ -94,25 +87,23 @@ body {
 }
 
 #jtext {
-  font-family: 'Jura', sans-serif;
-  color: var(--color-light)
+  font-family: "Jura", sans-serif;
+  color: var(--color-light);
 }
-
 
 .div1 {
-  height:120vh
+  height: 120vh;
 }
-
-.card1 {
-  width:18rem;
-}
-
 
 .links {
   text-decoration: none;
-  color:black;
+  color: black;
 }
-
 .card {
-  cursor: pointer;
+  min-height: 23rem;
+  min-width: 20rem;
+}
+.card-img-top {
+  height: 12rem;
+  max-width: 20rem;
 }
