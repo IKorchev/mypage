@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/mypage/static/css/main.94bf3b8b.chunk.css",
+    "main.js": "/mypage/static/js/main.8c881d83.chunk.js",
+    "main.js.map": "/mypage/static/js/main.8c881d83.chunk.js.map",
+    "runtime-main.js": "/mypage/static/js/runtime-main.b6fee4db.js",
+    "runtime-main.js.map": "/mypage/static/js/runtime-main.b6fee4db.js.map",
+    "static/css/2.921d5eb0.chunk.css": "/mypage/static/css/2.921d5eb0.chunk.css",
+    "static/js/2.27c7166d.chunk.js": "/mypage/static/js/2.27c7166d.chunk.js",
+    "static/js/2.27c7166d.chunk.js.map": "/mypage/static/js/2.27c7166d.chunk.js.map",
+    "index.html": "/mypage/index.html",
+    "static/css/2.921d5eb0.chunk.css.map": "/mypage/static/css/2.921d5eb0.chunk.css.map",
+    "static/css/main.94bf3b8b.chunk.css.map": "/mypage/static/css/main.94bf3b8b.chunk.css.map",
+    "static/js/2.27c7166d.chunk.js.LICENSE.txt": "/mypage/static/js/2.27c7166d.chunk.js.LICENSE.txt",
+    "static/media/2.fe36f951.jpg": "/mypage/static/media/2.fe36f951.jpg",
+    "static/media/3.f15c7b83.jpg": "/mypage/static/media/3.f15c7b83.jpg",
+    "static/media/TravelAgency.f4644eb0.png": "/mypage/static/media/TravelAgency.f4644eb0.png",
+    "static/media/Untitled.f393971a.png": "/mypage/static/media/Untitled.f393971a.png",
+    "static/media/index.css": "/mypage/static/media/pexels-charlotte-may-5825599.ceac61de.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b6fee4db.js",
+    "static/css/2.921d5eb0.chunk.css",
+    "static/js/2.27c7166d.chunk.js",
+    "static/css/main.94bf3b8b.chunk.css",
+    "static/js/main.8c881d83.chunk.js"
+  ]
+}
