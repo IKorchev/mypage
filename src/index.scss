@@ -1,0 +1,81 @@
+$color: rgba(0, 0, 0, 0.9);
+
+body {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+// HOME JUMBO
+
+.jumbo {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.99), rgba(0, 0, 0, 0.95)),
+    url("./assets/London.jpg");
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 60vh;
+
+  .jumbo-text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1 {
+      font-family:'Times New Roman', Times, serif;
+      font-weight:bold;
+      margin: 180px 0 50px 0;
+      color: white;
+      opacity: 0.8;
+      font-size: 4rem;
+    }
+    h4 {
+      opacity: 0.7;
+      width: 50%;
+    }
+  }
+}
+
+// NAV
+
+.navbar {
+  position:static;
+  background: $color;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  a {
+    font-size: 1.3rem;
+    border-radius: 9px;
+    text-decoration: none;
+    color: white;
+    padding: 9px 12px;
+  }
+  a:hover {
+    opacity: 0.8;
+  }
+  .nav-item {
+    margin: 0 10px;
+  }
+}
+
+.card {
+  background: darkgrey;
+  margin: 100px 100px;
+  height: 1000px;
+  width: 500px;
+}
+
+@media screen and (max-width: 700px) {
+  .jumbo-text {
+    margin: 0 2rem !important;
+
+    h1 {
+      font-size: 3rem !important;
+    }
+
+    h4 {
+      font-size: 1rem;
+    }
+  }
+}
