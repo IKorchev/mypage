@@ -7,9 +7,9 @@ function Footer() {
   const iconSize = 30;
 
   return (
-    <footer className="container-fluid " id="footer-container">
-      <div className="row text-center justify-content-around">
-        <div className="col-lg-2 py-2 text-center">
+    <footer className="footer py-1 mt-5" id="footer-container">
+      <div className="text-center justify-content-around">
+        <div className="mt-2 text-center">
           <a
             href="https://linkedin.com/"
             target="_blank"
