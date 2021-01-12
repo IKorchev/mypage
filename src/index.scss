@@ -1,20 +1,21 @@
-$color: rgba(0, 0, 0, 0.9);
-
+$color: rgb(16, 148, 255);
+html {
+  scroll-behavior: smooth;
+}
 body {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgb(48, 48, 48) !important;
 }
 
 // HOME JUMBO
 
 .jumbo {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.99), rgba(0, 0, 0, 0.95)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.99), rgba(51, 51, 51, 0.95)),
     url("./assets/London.jpg");
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: auto;
-  height: 60vh;
-
+  height: 75vh;
   .jumbo-text {
     color: white;
     display: flex;
@@ -22,48 +23,107 @@ body {
     justify-content: center;
     align-items: center;
     h1 {
-      font-family:'Times New Roman', Times, serif;
-      font-weight:bold;
-      margin: 180px 0 50px 0;
+      font-family: "Sedgwick Ave", cursive;
+      font-size: 5rem !important;
+      margin: 130px 0 50px 0;
       color: white;
       opacity: 0.8;
       font-size: 4rem;
     }
     h4 {
+      color: rgb(16, 148, 255);
       opacity: 0.7;
       width: 50%;
+      font-size: 2.5rem;
+      font-weight: lighter;
+      font-style: italic;
     }
   }
 }
 
 // NAV
 
-.navbar {
-  position:static;
-  background: $color;
+.navbarr {
+  position: static;
+  background: black;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  a {
+  align-items: center;
+
+  #nav-brandd {
+    margin: 0 10px;
     font-size: 1.3rem;
     border-radius: 9px;
-    text-decoration: none;
+    text-decoration: none !important;
     color: white;
     padding: 9px 12px;
   }
-  a:hover {
-    opacity: 0.8;
-  }
-  .nav-item {
+  #nav-itemm {
     margin: 0 10px;
+    font-size: 1.3rem;
+    border-radius: 9px;
+    text-decoration: none !important;
+    color: white;
+    padding: 9px 12px;
+  }
+  #nav-itemm:hover {
+    opacity: 0.8 !important;
+  }
+  #nav-brand:hover {
+    opacity: 0.8 !important;
   }
 }
 
-.card {
-  background: darkgrey;
-  margin: 100px 100px;
-  height: 1000px;
-  width: 500px;
+#projects {
+  #column {
+    margin-top: 100px !important;
+
+    #card {
+      width: 400px;
+      border-radius: 10px !important;
+      color: $color;
+      background: rgb(218, 218, 218);
+      .btn {
+        background: $color;
+        color: white;
+      }
+      .btn:hover {
+        opacity: 0.4;
+      }
+      .card-img {
+        border: 20px !important;
+      }
+    }
+    #card:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+
+
+.skillsButton {
+  vertical-align: top;
+}
+#btnText {
+  display:inline-block;
+  transform: rotate(-90deg);
+}
+
+.skillsDiv {
+  position:absolute;
+  left:-210px;
+  display:flex;
+  flex-direction: row;
+  left: -100;
+  width:300px!important;
+  transition: transform .5s ease;
+}
+
+.hide-skillsDiv {
+  transform: translateX(200px);
+  transition: transform .5s ease;
 }
 
 @media screen and (max-width: 700px) {
@@ -71,11 +131,12 @@ body {
     margin: 0 2rem !important;
 
     h1 {
+      margin-top: 100px !important;
       font-size: 3rem !important;
     }
 
     h4 {
-      font-size: 1rem;
+      font-size: 1.3rem;
     }
   }
 }

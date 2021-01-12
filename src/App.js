@@ -3,6 +3,8 @@ import Projects from './Pages/projects'
 import Navbar from './components/navbar'
 import AboutMe from './Pages/aboutme'
 import './index.scss'
+import 'bootstrap/dist/css/bootstrap.min.css'
+
 
 function App() {
   return (
